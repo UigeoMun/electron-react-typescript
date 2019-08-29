@@ -9,7 +9,7 @@ import store from './store';
 // Create main element
 const mainElement = document.createElement('div');
 document.body.appendChild(mainElement);
-
+document.body.style.margin = '0 0 0 0';
 // Render components
 const render = (Component: () => JSX.Element) => {
     ReactDOM.render(
